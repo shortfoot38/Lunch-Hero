@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="401.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.tridenttech.cpt237.lemons.finalproject.view.ViewStudentsController">
+   <children>
+      <ListView fx:id="studentList" layoutX="14.0" layoutY="10.0" prefHeight="384.0" prefWidth="149.0" />
+      <Separator layoutX="173.0" orientation="VERTICAL" prefHeight="401.0" prefWidth="25.0" />
+      <Button fx:id="viewStudentBtn" layoutX="220.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="65.0" prefWidth="87.0" text="View Student" />
+      <Button fx:id="cancel" layoutX="220.0" layoutY="322.0" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="65.0" prefWidth="87.0" text="Cancel" />
+      <Button fx:id="addStudentBtn" layoutX="220.0" layoutY="113.0" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="65.0" prefWidth="87.0" text="Add Student" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="deleteStudentBtn" layoutX="220.0" layoutY="218.0" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="65.0" prefWidth="87.0" text="Delete Student" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
